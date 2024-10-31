@@ -1,6 +1,7 @@
 import React from "react";
 import {
   Dialog,
+  DialogClose,
   DialogContent,
   DialogFooter,
   DialogHeader,
@@ -23,7 +24,7 @@ const AddExpense = ({ planId }: Props) => {
   const [amount, setAmount] = React.useState("");
   const dispatch = useDispatch<AppDispatch>();
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (typeof planId === "string") {
       const expense = {
@@ -69,7 +70,9 @@ const AddExpense = ({ planId }: Props) => {
           </div>
 
           <DialogFooter>
+            <DialogClose>
             <Button type="submit">Add Expense</Button>
+            </DialogClose>
           </DialogFooter>
         </form>
       </DialogContent>

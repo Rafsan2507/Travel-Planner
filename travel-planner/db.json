@@ -60,6 +60,24 @@
             }
           ]
         }
+      ],
+      "expenses": [
+        {
+          "category": "Lunch",
+          "amount": 2000
+        },
+        {
+          "category": "Biriyani",
+          "amount": 5000
+        },
+        {
+          "category": "Banking",
+          "amount": 1000
+        },
+        {
+          "category": "transport",
+          "amount": 5000
+        }
       ]
     },
     {
@@ -94,6 +112,36 @@
         {
           "category": "Lunch",
           "amount": 2000
+        },
+        {
+          "category": "Vegan",
+          "amount": 5000
+        },
+        {
+          "category": "Biriyani",
+          "amount": 5000
+        },
+        {
+          "category": "transport",
+          "amount": 5000
+        }
+      ]
+    },
+    {
+      "id": "6c1c",
+      "userId": "1354",
+      "name": "sadfs",
+      "description": "adas",
+      "startdate": "2024-10-09T00:00:00.000Z",
+      "enddate": "2024-10-24T00:00:00.000Z",
+      "destinations": [
+        {
+          "destination": "ad",
+          "activities": [
+            {
+              "activity": "ad"
+            }
+          ]
         }
       ]
     }
