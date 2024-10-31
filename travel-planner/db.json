@@ -1,0 +1,101 @@
+{
+  "users": [
+    {
+      "id": "1354",
+      "firstName": "Rafsan",
+      "lastName": "Khan",
+      "email": "b4@gmail.com",
+      "password": "zxc"
+    }
+  ],
+  "travels": [
+    {
+      "id": "463b",
+      "userId": "1354",
+      "name": "Trip to India",
+      "description": "Visit India",
+      "startdate": "2024-10-14T00:00:00.000Z",
+      "enddate": "2024-10-20T00:00:00.000Z",
+      "destinations": [
+        {
+          "destination": "Sikkim",
+          "activities": [
+            {
+              "activity": "Hiking"
+            },
+            {
+              "activity": "Waterfall"
+            }
+          ]
+        },
+        {
+          "destination": "Ladakh",
+          "activities": [
+            {
+              "activity": "Bike Ride"
+            }
+          ]
+        },
+        {
+          "destination": "Karachi",
+          "activities": [
+            {
+              "activity": "Bike Ride"
+            }
+          ]
+        },
+        {
+          "destination": "Kabul",
+          "activities": [
+            {
+              "activity": "Bike"
+            }
+          ]
+        },
+        {
+          "destination": "Phuket",
+          "activities": [
+            {
+              "activity": "Sea View"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bfa5",
+      "name": "Trip to China",
+      "description": "Good",
+      "startdate": "2024-10-17T00:00:00.000Z",
+      "enddate": "2024-10-16T00:00:00.000Z",
+      "destinations": [
+        {
+          "destination": "Shanghai",
+          "activities": [
+            {
+              "activity": "Fun"
+            }
+          ]
+        },
+        {
+          "destination": "Moscow",
+          "activities": [
+            {
+              "activity": "Fun"
+            }
+          ]
+        }
+      ],
+      "expenses": [
+        {
+          "category": "Lunch",
+          "amount": 2000
+        },
+        {
+          "category": "Lunch",
+          "amount": 2000
+        }
+      ]
+    }
+  ]
+}
